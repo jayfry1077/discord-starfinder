@@ -1,0 +1,922 @@
+{
+    "Animate Dead": {
+        "title": "Animate Dead",
+        "level_requirements": [
+            "Technomancer 4",
+            "Mystic 4"
+        ],
+        "school": "necromancy",
+        "casting_time": "1 standard action",
+        "range": "touch",
+        "area": null,
+        "targets": "one or more corpses",
+        "effect": null,
+        "duration": "instantaneous",
+        "saving_throw": "none",
+        "spell_resistance": "no",
+        "description": "This spell turns corpses into undead creatures that obey your spoken commands. The undead can be made to follow you, or they can be made to remain in place and attack any creature (or a specific kind of creature) entering the area. They remain animated until they are destroyed. A destroyed undead can’t be animated again.\r\n\r\nYou can create one or more undead creatures with a total CR of no more than half your caster level. You can only create one type of undead with each casting of this spell. Creating undead requires special materials worth 1,000 credits × the total CR of the undead created; these materials are consumed as part of casting the spell.\r\n\r\nThe undead you create remain under your control indefinitely. No matter how many times you use this spell, however, you can control only a number of undead whose total CR is no greater than your caster level. If you exceed this number, all the newly created creatures fall under your control and any excess undead from previous castings become uncontrolled. You choose which creatures are released. Once released, such undead have no particular feelings of loyalty to you, and in time they may grow in power beyond the undead you can create.\r\n\r\nThe corpses you use must be as intact as the typical undead of the type you choose to create. For example, a skeleton can be created only from a mostly intact corpse (that has bones) or skeleton. A zombie can be created only from a creature with a physical anatomy.",
+        "brief_description": "Create controlled undead creatures out of target corpses.",
+        "requires_resolve": false
+    },
+    "Arcane Eye": {
+        "title": "Arcane Eye",
+        "level_requirements": [
+            "Technomancer 4"
+        ],
+        "school": "divination",
+        "casting_time": "10 minutes",
+        "range": "planetary",
+        "area": null,
+        "targets": null,
+        "effect": "magical sensor",
+        "duration": "1 minute/level (D)",
+        "saving_throw": "none",
+        "spell_resistance": "no",
+        "description": "You create an invisible magical sensor that sends you visual information. The sensor appears at any point within line of sight, but it can then travel beyond your line of sight without hindrance. An arcane eye travels at 30 feet per round (300 feet per minute) if viewing an area ahead as a humanoid would (primarily looking at the floor) or 10 feet per round (100 feet per minute) if examining the ceiling and walls as well as the floor ahead. The arcane eye sees exactly as you would see if you were there.\r\n\r\nThe arcane eye can travel in any direction as long as the spell lasts. Solid barriers block its passage, but it can pass through a hole or space as small as 1 inch in diameter. The arcane eye can’t enter another plane of existence, even through Drift travel or a magical gate or similar magical portal.\r\nYou must concentrate to use an arcane eye. If you do not concentrate, the sensor is inert until you concentrate again.",
+        "brief_description": "Invisible floating eye moves 30 feet per round and sends you visual information.",
+        "requires_resolve": false
+    },
+    "Arcane Sight": {
+        "title": "Arcane Sight",
+        "level_requirements": [
+            "Technomancer 3"
+        ],
+        "school": "divination",
+        "casting_time": "1 standard action",
+        "range": "personal",
+        "area": "",
+        "targets": null,
+        "effect": "",
+        "duration": "1 minute/level (D)",
+        "saving_throw": "",
+        "spell_resistance": "",
+        "description": "This spell allows you to see magic sources within 120 feet of you. The effect is similar to that of a detect magic spell, but arcane sight does not require concentration and discerns information more quickly.\r\n\r\nYou know the location and caster level of all magic sources within your sight. If the magic sources are in line of sight, you can attempt a DC 28 Mysticism check (one check per source) to determine the school of magic involved in each source.\r\nIf you concentrate on a specific creature within 120 feet of you as a standard action, you can determine whether it has any spellcasting or spell-like abilities and the caster level of the most powerful spell or spell-like ability the creature currently has available for use.\r\n\r\nAs with detect magic, you can use this spell to identify the properties of magic items, but not of artifacts.",
+        "brief_description": "Magical sources become visible to you.",
+        "requires_resolve": false
+    },
+    "Arcing Surge": {
+        "title": "Arcing Surge",
+        "level_requirements": [
+            "Technomancer 3"
+        ],
+        "school": "evocation",
+        "casting_time": "1 standard action",
+        "range": "120 ft.",
+        "area": "line-shaped burst",
+        "targets": "",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "Reflex half",
+        "spell_resistance": "yes",
+        "description": "You cause an electrical device in your possession to surge\r\nin power and unleash a line of electricity from the massive oversurge. This deals 10d6 electricity damage to all creatures and objects in the area.",
+        "brief_description": "Deal 10d6 electricity damage in a 120-foot line.",
+        "requires_resolve": false
+    },
+    "Augury": {
+        "title": "Augury",
+        "level_requirements": [
+            "Mystic 2"
+        ],
+        "school": "divination",
+        "casting_time": "1 minute",
+        "range": "personal",
+        "area": "",
+        "targets": null,
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "",
+        "spell_resistance": "",
+        "description": "Casting augury can tell you whether a particular action will bring good or bad results for you in the immediate future. Casting this spell takes intense personal focus and requires you to spend 1 Resolve Point.\r\n\r\nThe chance for successfully receiving a meaningful reply is 75%; this roll is made secretly by the GM. A question may be so straightforward that a successful result is automatic, or it may be so vague as to have no chance of success. If the augury succeeds, you get one of four results.\r\n\r\n* Weal (if the action will probably bring good results).\r\n* Woe (for bad results).\r\n* Weal and woe (for both).\r\n* Nothing (for actions that have neither especially good nor\r\nespecially bad results).\r\n\r\nIf the augury isn’t successful, you get the “nothing” result.\r\n\r\nA spellcaster who gets the “nothing” result has no way to tell whether it was the consequence of a failed or successful augury.\r\nThe augury can see only about 30 minutes into the future, so anything that might happen beyond that time frame does not affect the result. Thus, the result might not take into account the long-term consequences of a contemplated action. Multiple castings of augury by the same creature about the same topic use the same die result as the first casting.",
+        "brief_description": "Learn whether an action will be good or bad.",
+        "requires_resolve": true
+    },
+    "Battle Junkbot": {
+        "title": "Battle Junkbot",
+        "level_requirements": [
+            "Technomancer 6"
+        ],
+        "school": "transmutation",
+        "casting_time": "1 round",
+        "range": "touch",
+        "area": "",
+        "targets": "at least 1 bulk of inert electronic equipment; see text",
+        "effect": "",
+        "duration": "1 round/level",
+        "saving_throw": "none",
+        "spell_resistance": "no",
+        "description": "You turn a pile of technological junk into a vicious robot that can hunt down and attack your enemies.\r\n\r\nYou must target inert, nonworking electronic equipment of at least 1 bulk. Valid targets include a large broken computer system, nonworking or unconnected computer or robot parts, a destroyed robot or another such trashed mechanical system, or any related electronic components or combination of the above as long as the junk is found in a large enough quantity. Creating a battle junkbot also requires one ultra-capacity battery. Casting this spell drains all of the battery’s charges.\r\n\r\nWhile casting this spell, you use your magic and technological know-how to rearrange the junked parts and infuse them with aggression and martial skills. A battle junkbot is Small, its KAC and EAC are each equal to 15 + your technomancer level, it has hardness 15, and it has a number of Hit Points equal to half of your own (but no Stamina Points). It uses your saving throw bonuses when it is the target of spells and other targeted effects. It has a land speed of 30 feet and a fly speed of 15 feet with average maneuverability. For purposes of spells and effects that target the junkbot, it is treated as a construct with the magical and technological subtypes.\r\n\r\nThe battle junkbot has four hands. It is treated as if it had the Deadly Aim and Improved Combat Maneuver (Bull Rush, Grapple, Trip) feats. It has an attack bonus equal to 6 + your technomancer level; in one hand it wields a special buzzblade dagger that deals 6d8+6 damage instead of its normal damage, and a second hand carries a special light laser pistol that deals 6d6 damage instead of its normal damage. Damage from the junkbot’s special weapons counts as magic for the purpose of overcoming damage reduction.\r\n\r\nYou can give new basic commands to your battle junkbot telepathically on your turn as a move action, and the junkbot can take actions as if it were a normal creature. You are aware when the robot has made an attack or combat maneuver and whether or not it was successful, as well as when the battle junkbot has been attacked, has taken damage, or is destroyed, but you can perceive nothing else through this basic telepathic link.\r\n\r\nWhen the battle junkbot is destroyed or this spell ends, the electronic equipment you used to create the junkbot falls apart into refuse, its circuitry fried beyond anything recognizable. You cannot use this refuse as a target to create another junkbot.",
+        "brief_description": "Create a temporary robot from random junk, turning it into a deadly combatant.",
+        "requires_resolve": false
+    },
+    "Bestow Curse": {
+        "title": "Bestow Curse",
+        "level_requirements": [
+            "Mystic 3"
+        ],
+        "school": "necromancy",
+        "casting_time": "1 standard action",
+        "range": "touch",
+        "area": "",
+        "targets": "one creature",
+        "effect": "",
+        "duration": "permanent",
+        "saving_throw": "Will negates",
+        "spell_resistance": "yes",
+        "description": "You place a terrible curse on the target, stealing either its overall competency or its ability to think and act on its feet. Choose one of the following.\r\n\r\n* The target takes a –4 penalty to ability checks, attack rolls, saving throws, and skill checks.\r\n* Each turn, the target has a 50% chance to act normally; otherwise, it takes no action.\r\n\r\nYou can also invent your own curse (see Afflictions on page 414 for a few ideas), but it should be no more powerful than those described above. The curse bestowed by this spell cannot be dispelled, but it can be removed with a break enchantment, miracle, remove affliction, or wish spell.\r\n\r\nCasting this spell doesn’t provoke attacks of opportunity. Bestow curse counters remove affliction.",
+        "brief_description": "Target takes –4 penalty to attack rolls, saves, and checks or 50% chance of not acting on each of its turns.",
+        "requires_resolve": false
+    },
+    "Break Enchantment": {
+        "title": "Break Enchantment",
+        "level_requirements": [
+            "Technomancer 5",
+            "Mystic 5"
+        ],
+        "school": "abjuration",
+        "casting_time": "1 minute",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "up to one creature per level, no two of which can be more than 30 ft. apart",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "none",
+        "spell_resistance": "no",
+        "description": "This spell frees victims from curses, enchantments, and transmutations. Break enchantment can reverse even an instantaneous effect. For each such effect, you attempt a caster level check (1d20 + your caster level, maximum +15) against a DC equal to 11 + the caster level of the effect. Success means that the creature is free of the spell, curse, or effect. For a cursed magic item, the DC of the caster level check is equal to the DC of the curse.\r\n\r\nIf the spell is one that can’t be dispelled by dispel magic, break enchantment works only if that spell is 5th level or lower. If the effect comes from a permanent magic item, break enchantment doesn’t remove the curse from the item but it does free the victim from the item’s effects.",
+        "brief_description": "Free creatures from curses, enchantments, and transmutations.",
+        "requires_resolve": false
+    },
+    "Call Cosmos": {
+        "title": "Call Cosmos",
+        "level_requirements": [
+            "Mystic 5"
+        ],
+        "school": "evocation",
+        "casting_time": "1 standard action",
+        "range": "long (400 ft. + 40 ft./level)",
+        "area": "cylinder (20-ft. radius, 40 ft. high)",
+        "targets": "",
+        "effect": "",
+        "duration": "1 round/level (D)",
+        "saving_throw": "none",
+        "spell_resistance": "yes",
+        "description": "You evoke a vertical column of dangerous material from across the universe that rains down upon creatures in the area. This matter is made up of bits of burning stars and chunks of frozen comets, and it deals 4d6 fire damage and 3d6 cold damage\r\nto every creature in the area. This damage occurs only once, when the spell is cast. For the spell’s remaining duration, the fallen starstuff makes the entire area difficult terrain, and thick, swirling clouds of particulate space matter magically block vision. This obscures all sight beyond 5 feet, including darkvision and other vision-based senses (including vision-based blindsight and sense through), but doesn’t prevent blindsense. A creature within 5 feet of its attacker has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker can’t use sight to locate the target). Additionally, the swirling cosmic particles are distracting to spellcasters in the area, who have a 20% chance of losing any spell they attempt to cast in the area. At the end of the duration, the starstuff disappears, leaving no aftereffects (other than the damage dealt).",
+        "brief_description": "Rain cosmic particles on targets, dealing 4d6 fire damage and 3d6 cold damage.",
+        "requires_resolve": false
+    },
+    "Charm Monster": {
+        "title": "Charm Monster",
+        "level_requirements": [
+            "Mystic 3"
+        ],
+        "school": "enchantment",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "one living creature",
+        "effect": "",
+        "duration": "1 day/level",
+        "saving_throw": "",
+        "spell_resistance": "",
+        "description": "This spell functions like charm person, except the effect is not restricted by creature type.",
+        "brief_description": "Make one creature believe it is your ally or one day per level.",
+        "requires_resolve": false
+    },
+    "Charm Person": {
+        "title": "Charm Person",
+        "level_requirements": [
+            "Mystic 1"
+        ],
+        "school": "enchantment",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "one humanoid creature",
+        "effect": "",
+        "duration": "1 hour/level",
+        "saving_throw": "Will negates",
+        "spell_resistance": "yes",
+        "description": "This charm makes a humanoid creature regard you as its trusted friend and ally (treat the target’s attitude as friendly). If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus to its saving throw.\r\n\r\nThe spell does not enable you to control the charmed creature as if it were an automaton. It is unlikely to attempt to harm you, but it is also unlikely to attack any of its true friends or allies. You can try to give the target suggestions, but you must succeed at an opposed Charisma check to convince it to do anything it wouldn’t ordinarily do. (Retries of this check are not allowed.) An affected creature never obeys suicidal or obviously harmful suggestions. Any act by you or your apparent allies that threatens the charmed creature breaks the spell. You must speak the creature’s language to communicate your suggestions, or else be good at pantomiming.",
+        "brief_description": "Make one creature believe it is your ally or one day per level.",
+        "requires_resolve": false
+    },
+    "Clairaudience/Clairvoyance": {
+        "title": "Clairaudience/Clairvoyance",
+        "level_requirements": [
+            "Technomancer 3",
+            "Mystic 3"
+        ],
+        "school": "divination",
+        "casting_time": "10 minutes",
+        "range": "long (400 ft. + 40 ft./level)",
+        "area": "",
+        "targets": "",
+        "effect": "magical sensor",
+        "duration": "1 minute/level (D)",
+        "saving_throw": "none",
+        "spell_resistance": "no",
+        "description": "You create an invisible magical sensor at a specific location that enables you to hear or see (your choice) almost as if you were there. You don’t need line of sight or line of effect to create this sensor in a specific spot within range, but the locale must be either a place that’s familiar to you or an obvious location, such as inside a cave whose entrance you can see.\r\n\r\nThe sensor doesn’t move, but you can rotate it in all directions to view the area as desired. This spell functions only on the plane of existence you are currently occupying.",
+        "brief_description": "Hear or see at a distance for 1 minute per level.",
+        "requires_resolve": false
+    },
+    "Command": {
+        "title": "Command",
+        "level_requirements": [
+            "Mystic 1"
+        ],
+        "school": "enchantment",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "one living creature",
+        "effect": "",
+        "duration": "1 round",
+        "saving_throw": "Will negates",
+        "spell_resistance": "yes",
+        "description": "You give the target one of the following commands, which it obeys to the best of its ability at its earliest opportunity. If the target can’t carry out your command on its next turn, the spell automatically fails.\r\n\r\n* **Approach:** The target moves toward you as quickly and directly as possible for 1 round, taking no other actions and triggering reactions (such as attacks of opportunity) for this movement as normal.\r\n* **Drop:** The target drops whatever it is holding. It can’t pick up any dropped item until its next turn.\r\n* **Fall:** The target falls to the ground and remains prone for 1 round. It can otherwise act normally.\r\n* **Flee:** The target moves away from you as quickly and directly as possible for 1 round, taking no other actions and provoking reactions (such as attacks of opportunity) for this movement as normal.\r\n* **Halt:** The target is dazed for 1 round.",
+        "brief_description": "One creature obeys a select command for 1 round.",
+        "requires_resolve": false
+    },
+    "Command, Greater": {
+        "title": "Command, Greater",
+        "level_requirements": [
+            "Mystic 5"
+        ],
+        "school": "enchantment",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "up to one creature/level, no two of which can be more than 30 ft. apart",
+        "effect": "",
+        "duration": "1 round/level",
+        "saving_throw": "Will negates",
+        "spell_resistance": "yes",
+        "description": "This spell functions like command, except you can affect up to one creature per level and the targets continue the specified activity beyond 1 round. At the start of each commanded creature’s action after the first, it can attempt another Will saving throw to break free from the spell. Each creature must receive the same command.",
+        "brief_description": "One creature per level obeys select command for 1 round per level.",
+        "requires_resolve": false
+    },
+    "Command Undead": {
+        "title": "Command Undead",
+        "level_requirements": [
+            "Technomancer 2",
+            "Mystic 2"
+        ],
+        "school": "necromancy",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "one undead creature",
+        "effect": "",
+        "duration": "1 day/level",
+        "saving_throw": "Will negates, see text",
+        "spell_resistance": "yes",
+        "description": "This spell allows you a degree of control over an undead creature. If the target is intelligent, it perceives your words and actions favorably (treat its attitude as friendly). It will not attack you while the spell lasts. You can give the target suggestions, but you must succeed at an opposed Charisma check to convince it to do anything it wouldn’t ordinarily do. (Retries are not allowed.) An intelligent commanded undead never obeys suicidal or obviously harmful suggestions, but it might be convinced that something very dangerous is worth doing.\r\n\r\nAn unintelligent undead creature gets no saving throw against this spell. When you control a mindless being, you can communicate only basic commands, such as “Come here,” “Go there,” “Fight,” “Stand still,” and so on. Unintelligent undead won’t resist suicidal or obviously harmful orders.\r\n\r\nAny act by you or your apparent allies that threatens the commanded undead (regardless of its Intelligence) breaks the spell. You command the undead creature by voice and it understands you, no matter what language you speak.",
+        "brief_description": "Undead creature obeys your commands.",
+        "requires_resolve": false
+    },
+    "Commune With Nature": {
+        "title": "Commune With Nature",
+        "level_requirements": [
+            "Mystic 5"
+        ],
+        "school": "divination",
+        "casting_time": "10 minutes",
+        "range": "personal",
+        "area": "",
+        "targets": "",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "",
+        "spell_resistance": "",
+        "description": "You become one with nature, attaining knowledge of the surrounding territory. You instantly gain knowledge of up to three facts from among the following subjects: the ground or terrain, plants, minerals, bodies of water, people, general animal population, presence of native creatures, presence of powerful unnatural creatures, or general state of the natural setting.\r\n\r\nIn outdoor settings, the spell operates in a radius of 1 mile per caster level. In natural underground settings—caves, caverns, and the like—the spell is less powerful and its radius is limited to 100 feet per caster level. The spell does not function where nature has been replaced by construction or settlements, such as in cities, factories, and starships.",
+        "brief_description": "Learn about terrain for 1 mile per level.",
+        "requires_resolve": false
+    },
+    "Comprehend Languages": {
+        "title": "Comprehend Languages",
+        "level_requirements": [
+            "Technomancer 1"
+        ],
+        "school": "divination",
+        "casting_time": "1 standard action",
+        "range": "personal",
+        "area": "",
+        "targets": "",
+        "effect": "",
+        "duration": "10 minutes/level",
+        "saving_throw": "",
+        "spell_resistance": "",
+        "description": "You can understand the spoken or signed words of creatures or read otherwise incomprehensible written or tactile messages. The ability to read does not necessarily impart insight into the material, merely its literal meaning. The spell enables you to understand or read an unknown language, not speak or write it. You can’t use this spell to read magic writing or encoded messages (though it does reveal if a message is magic or encoded), but you can use it to read raw computer code or foreign programming languages, allowing you to understand enough to attempt Computers checks on those materials without penalties.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Confusion": {
+        "title": "Confusion",
+        "level_requirements": [
+            "Mystic 4"
+        ],
+        "school": "enchantment",
+        "casting_time": "1 standard action",
+        "range": "medium (100 ft. + 10 ft./level)",
+        "area": "15-ft.-radius burst",
+        "targets": "",
+        "effect": "",
+        "duration": "1 round/level",
+        "saving_throw": "Will negates",
+        "spell_resistance": "yes",
+        "description": "This spell causes confusion in all creatures in the area, making them unable to determine their actions. Any confused creature that is attacked automatically attacks or attempts to attack its attackers on its next turn, as long as it is still confused at the start of its next turn. Note that a confused creature will not make attacks of opportunity against any foe that it is not already devoted to attacking (either because of its most recent action or because it has just been attacked). For confused creatures that have not been attacked, roll on the following table at the start of each affected creature’s turn each round to see what it does in that round.\r\n\r\nd% | Behavior\r\n:---:|:---:\r\n1–25 | Act normally.\r\n26–50 | Do nothing but babble incoherently.\r\n51–75 | Deal 1d8 + Str modifier damage to self with item in hand.\r\n76–100 | Attack nearest creature.\r\n\r\nA confused creature that can’t carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused target.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Confusion, Lesser": {
+        "title": "Confusion, Lesser",
+        "level_requirements": [
+            "Mystic 1"
+        ],
+        "school": "enchantment",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "one living creature",
+        "effect": "",
+        "duration": "1 round",
+        "saving_throw": "Will negates",
+        "spell_resistance": "yes",
+        "description": "This spell causes a single creature to become confused (as per the confusion spell) for 1 round.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Contact Other Plane": {
+        "title": "Contact Other Plane",
+        "level_requirements": [
+            "Technomancer 5",
+            "Mystic 5"
+        ],
+        "school": "divination",
+        "casting_time": "10 minutes",
+        "range": "personal",
+        "area": "",
+        "targets": "",
+        "effect": "",
+        "duration": "concentration",
+        "saving_throw": "",
+        "spell_resistance": "",
+        "description": "You send your mind to another plane of existence (an Elemental Plane or some plane further removed) in order to receive advice and information from powers there. The powers reply in a language you understand, but they resent such contact and give only brief answers to your questions. All questions are answered with “Yes,” “No,” “Maybe,” “Never,” “Irrelevant,” or some other one-word answer.\r\n\r\nYou must concentrate on maintaining the spell in order to ask questions at the rate of one per round. A question is answered by the power during the same round. You can ask one question for every 2 caster levels. On rare occasions, this divination may be blocked by an act of certain deities or forces.\r\nContacting a minor planar power is relatively safe but may not result in useful answers. For each question you ask, the GM secretly rolls 1d20.\r\n\r\n* **1–2:** The power gives you no answer, the spell ends, and you must attempt a DC 7 Intelligence check. On a failed check, your Intelligence and Charisma scores each fall to 8 for a week and you are unable to cast spells for that period.\r\n* **3–5:** You receive a random answer to the question.\r\n* **6–10:** You receive an incorrect answer to the question. Based on the nature and needs of the creature contacted, this may be a lie designed to harm you.\r\n* **11–15:** You receive no answer to the question.\r\n* **16 or More:** You receive a truthful and useful one-word answer. If the question can’t be truthfully answered in this way, no answer is received.\r\n\r\nContact with minds further removed from your home plane increases the probability that you will incur a decrease in Intelligence and Charisma due to your brain being overwhelmed by the power’s sheer strangeness and force, but it also increases the chance of the power knowing the answer and answering correctly. You can add any value from +1 to +5 to the d20 roll to represent contacting increasingly powerful planar beings. However, on a roll of 1 or 2, the result is still no answer, the spell ends, and you must attempt an Intelligence check to avoid losing Intelligence and Charisma. The DC of this Intelligence check is increased by the same amount added to the d20 check to contact a planar creature.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Control Gravity": {
+        "title": "Control Gravity",
+        "level_requirements": [
+            "Technomancer 6",
+            "Mystic 6"
+        ],
+        "school": "transmutation",
+        "casting_time": "1 standard action",
+        "range": "medium (100 ft. + 10 ft./level)",
+        "area": "up to one 10-ft. cube/2 levels (S)",
+        "targets": "",
+        "effect": "",
+        "duration": "1 round/level (D)",
+        "saving_throw": "Fortitude negates, see text;",
+        "spell_resistance": "no",
+        "description": "You can control gravity in an area, causing it to reverse, become zero-g, or become extremely strong. A creature or object within the area that succeeds at its saving throw is unaffected (though if it stays in the area, it must succeed at a new save each round or become affected), but it might still suffer secondary effects (such as an object flying up from reversed gravity, or an object falling upon it when the spell ends). You choose how to have this spell affect gravity when you cast it, and you cannot change it without recasting the spell. If two control gravity spells affect the same area, they negate each other in the area of overlap.\r\n\r\nIf you reverse gravity in an area, you cause unattached objects and creatures in the area to fall upward and reach the top of the affected area in 1 round. If a solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it in the same manner as they would during\r\na normal downward fall. If an object or creature reaches the top of the spell’s area without striking anything, it remains there, oscillating slightly, until the spell ends. At the end of the spell’s duration, affected objects and creatures fall downward. Creatures who can fly or levitate can keep themselves from falling in either direction.\r\n\r\nIf you increase gravity in the area, creatures and objects weigh twice as much as normal, move at half speed, can jump only half as far as normal, and can lift and carry only half as much as normal. Any flying target has its maneuverability worsened by one step (from average to clumsy, for example; minimum clumsy) and plummets to the ground unless it succeeds at a DC 25 Acrobatics check to fly to remain in the air.\r\n\r\nAn area of zero-g works like the zero-g environment (see page 402). You can also use this spell to make areas of zero-g, heavy gravity, or light gravity act as normal gravity for the duration (see page 402).",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Control Machines": {
+        "title": "Control Machines",
+        "level_requirements": [
+            "Technomancer 5"
+        ],
+        "school": "transmutation",
+        "casting_time": "1 standard action",
+        "range": "medium (100 ft. + 10 ft./level)",
+        "area": "",
+        "targets": "constructs of the technological subtype with individual CRs no greater than your level + 1 and a total CR no greater than twice",
+        "effect": "",
+        "duration": "concentration, up to 1 round/level",
+        "saving_throw": "Will negates",
+        "spell_resistance": "no",
+        "description": "You wrest control of the target constructs and command them telepathically. You can issue commands to any number of controlled constructs on your turn, beginning when you cast this spell, as part of the concentration required to sustain its duration (a standard action).\r\n\r\nIf any of the constructs are under the control of a hostile creature, that controlling creature can attempt a Will saving throw (DC equal to this spell’s) to negate this spell’s effect. Each construct under the control of another creature grants its controlling creature a separate saving throw to negate the effect for that construct.\r\n\r\nWhile this spell is in effect, the affected constructs follow any command you give them, even if it would be dangerous to the controlled constructs. At the end of the spell, the constructs revert to their normal behavior. If they are intelligent, they know and remember that you used magic to control them.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Control Undead": {
+        "title": "Control Undead",
+        "level_requirements": [
+            "Technomancer 6",
+            "Mystic 6"
+        ],
+        "school": "necromancy",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "undead creatures with individual CRs no greater than your level + 1 and a total CR no greater than twice your level, no two of which can be more than 30 ft. apart",
+        "effect": "",
+        "duration": "1 minute/level",
+        "saving_throw": "Will negates",
+        "spell_resistance": "yes",
+        "description": "This spell enables you to control undead creatures for a short period of time. You command them by voice and they understand you, no matter what language you speak. No matter what, the controlled undead do not attack you. At the end of the spell, the targets revert to their normal behavior.\r\nIf any of the undead are under the control of a hostile creature, that controlling creature can attempt a Will saving throw (DC = the spell’s DC) to negate this spell’s effect if the creature failed its initial saving throw. Each undead under the control of another creature grants its controlling creature a separate saving throw to negate the effect for that undead.\r\n\r\nIntelligent undead creatures remember that you controlled them, and they may seek revenge after the spell’s duration ends.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Corrosive Haze": {
+        "title": "Corrosive Haze",
+        "level_requirements": [
+            "Technomancer 4"
+        ],
+        "school": "evocation",
+        "casting_time": "1 standard action",
+        "range": "medium (100 ft. + 10 ft./level)",
+        "area": "",
+        "targets": "",
+        "effect": "5-ft.-diameter cloud of acid",
+        "duration": "1 round/level",
+        "saving_throw": "Reflex negates",
+        "spell_resistance": "yes",
+        "description": "A 5-foot cloud of acid-resistant nanites continually converts nearby water vapor into deadly acid. You can create the cloud in the same square as a creature and move it up to 30 feet in any direction as a move action on your turn. If the cloud enters (or is created in) a square containing a creature, it can’t move any farther that round and deals 4d6 acid damage to that creature (Reflex negates). The acidic cloud also corrodes any unattended objects along its path, dealing them 4d8 acid damage.\r\n\r\nIf you don’t move the cloud, it remains where it is; if it shares its square with any creature at the beginning of your turn, that creature must succeed at a Reflex save or take 4d8 acid damage. Any creature that takes damage from the cloud takes 10 additional acid damage at the end of its next turn.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Cosmic Eddy": {
+        "title": "Cosmic Eddy",
+        "level_requirements": [
+            "Mystic 4"
+        ],
+        "school": "evocation",
+        "casting_time": "1 standard action",
+        "range": "medium (100 ft. + 10 ft./level)",
+        "area": "20-ft.-radius spread",
+        "targets": "",
+        "effect": "",
+        "duration": "1 round/level (D)",
+        "saving_throw": "Reflex partial, see text",
+        "spell_resistance": "yes",
+        "description": "You pull dormant mystical energy from the land and objects around you and use it to create a swirling eddy that batters your foes and can hinder their movement. The eddy deals 4d6 bludgeoning damage to each creature in the area. Additionally, creatures in the area are knocked prone and are reduced to half speed while the spell is in effect. A creature that succeeds at a Reflex save takes only half damage and is not knocked prone, but it is still reduced to half speed. Flying creatures within the eddy’s area must attempt an Acrobatics check to fly (DC equals the spell’s save DC) each round. Failure means the creature cannot move for that round.\r\n\r\nThe spell deals damage and knocks creatures prone only once. However, if a creature leaves the spell’s area and then returns, it is subject to the damage and other effects described above again (and can attempt another Reflex saving throw). Similarly, if a creature is not in this spell’s area when it is first cast but later moves into it, it is subject to the damage and other effects described above.\r\n\r\nSmall, unattended items (no more than light bulk) are also thrown around in the eddy’s area. At the end of the spell’s duration, such items land in a randomly determined space within the spell’s area.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Creation": {
+        "title": "Creation",
+        "level_requirements": [
+            "Technomancer 4",
+            "Technomancer 5"
+        ],
+        "school": "conjuration",
+        "casting_time": "1 minute",
+        "range": "0 ft.",
+        "area": "",
+        "targets": "",
+        "effect": "one nonmagical, nontechnological object of nonliving matter, up",
+        "duration": "see text",
+        "saving_throw": "none",
+        "spell_resistance": "no",
+        "description": "You create a nonmagical, nontechnological, unattended object of nonliving matter. The volume of the item created can’t exceed 1 cubic foot (or 1 bulk) per caster level. You must succeed at an appropriate Engineering or Profession check to make a complex item, and you can’t create a consumable item.\r\n\r\n* **4th:** When you cast creation as a 4th-level spell, it creates an object made out of vegetable matter (such as wood) that has an item level no greater than one-third your caster level. The duration is 1 hour per caster level.\r\n* **5th:** When you cast creation as a 5th-level spell, it creates an object made out of vegetable matter or material of a mineral nature: crystal, metal, stone, or the like. The object can’t have an item level greater than half your caster level. The duration depends on the hardness and rarity of the created object, as indicated on the following table.\r\n\r\nHardness and Rarity Examples | Duration\r\n:---:|:---:\r\nVegetable matter | 2 hours/level\r\nStone, crystal, base metals | 1 hour/level\r\nPrecious metals | 20 minutes/level\r\nGems | 10 minutes/level\r\nRare metals* | 1 round/level\r\n\r\n* Includes adamantine, alchemical silver, mithral, and skymetal\r\nalloys. You can’t use a 5th-level creation spell to create a cold iron item",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Crush Skull": {
+        "title": "Crush Skull",
+        "level_requirements": [
+            "Mystic 5"
+        ],
+        "school": "necromancy",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "one living creature",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "Fortitude partial",
+        "spell_resistance": "yes",
+        "description": "You manipulate the energy that swirls around the target’s head, pulling it inward and potentially crushing its skull. You must make a ranged attack against the target’s EAC to ensure this spell hits the necessary weak spots in the target’s head, but you can add your key ability score modifier to this attack roll instead of your Dexterity modifier if it is higher. If you hit and the target fails a Fortitude saving throw, it takes 18d8 damage. If the target succeeds at its saving throw, it instead takes 4d8 damage. The target might die from damage even if it succeeds at its saving throw; in this case, the spell is not a death effect. This spell has no effect against living creatures that don’t have an anatomical head.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Dancing Lights": {
+        "title": "Dancing Lights",
+        "level_requirements": [
+            "Technomancer 0"
+        ],
+        "school": "evocation",
+        "casting_time": "1 standard action",
+        "range": "medium (100 ft. + 10 ft./level)",
+        "area": "",
+        "targets": "",
+        "effect": "up to four lights",
+        "duration": "1 minute (D)",
+        "saving_throw": "none",
+        "spell_resistance": "no",
+        "description": "You create up to four lights that resemble small headlights or flashlights. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire: forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.\r\n\r\nYou can have only one dancing lights spell active at a time. If you cast this spell while another casting is still in effect, the previous casting is dispelled.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Darkvision": {
+        "title": "Darkvision",
+        "level_requirements": [
+            "Technomancer 2",
+            "Mystic 2"
+        ],
+        "school": "transmutation",
+        "casting_time": "1 standard action",
+        "range": "touch",
+        "area": "",
+        "targets": "one creature or camera",
+        "effect": "",
+        "duration": "1 hour/level",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "yes (harmless)",
+        "description": "The target gains the ability to see 60 feet even in total darkness. Darkvision is black and white only but otherwise like normal sight.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Daze": {
+        "title": "Daze",
+        "level_requirements": [
+            "Technomancer 0",
+            "Mystic 0"
+        ],
+        "school": "enchantment",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "one humanoid creature of CR 3 or lower",
+        "effect": "",
+        "duration": "1 round",
+        "saving_throw": "Will negates",
+        "spell_resistance": "yes",
+        "description": "This spell short-circuits the mind of a humanoid creature with a CR of 3 or lower so that it is dazed (unable to take actions, but taking no penalty to AC). Humanoids of CR 4 or higher are not affected. After a creature has been dazed by this spell, it is immune to it for 1 minute.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Daze Monster": {
+        "title": "Daze Monster",
+        "level_requirements": [
+            "Technomancer 2",
+            "Mystic 2"
+        ],
+        "school": "enchantment",
+        "casting_time": "1 standard action",
+        "range": "medium (100 ft. + 10 ft./level)",
+        "area": "",
+        "targets": "one living creature of CR 5 or lower",
+        "effect": "",
+        "duration": "1 round",
+        "saving_throw": "Will negates",
+        "spell_resistance": "yes",
+        "description": "This spell functions like daze, but it can affect any one living creature of any type up to CR 5. Creatures of CR 6 or higher are not affected.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Death Ward": {
+        "title": "Death Ward",
+        "level_requirements": [
+            "Mystic 4"
+        ],
+        "school": "necromancy",
+        "casting_time": "1 standard action",
+        "range": "touch",
+        "area": "",
+        "targets": "one living creature",
+        "effect": "",
+        "duration": "1 minute/level",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "yes (harmless)",
+        "description": "The target gains a +4 morale bonus to saving throws against all spells and effects with the death descriptor. The target can attempt a save to negate such effects even if one is not normally allowed. The target can’t gain negative levels and is immune to any negative energy effects. This spell does not remove negative levels the target has already gained, but it does remove the penalties from negative levels for the duration of its effect.\r\n\r\nDeath ward does not protect against other sorts of attacks, even if those attacks might be lethal.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Deep Slumber": {
+        "title": "Deep Slumber",
+        "level_requirements": [
+            "Mystic 3"
+        ],
+        "school": "enchantment",
+        "casting_time": "1 round",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "one or more living creatures with a total CR of 8 or lower, all",
+        "targets": "",
+        "effect": "",
+        "duration": "1 minute/level",
+        "saving_throw": "Will negates",
+        "spell_resistance": "yes",
+        "description": "This spell causes living creatures in the area to fall into a magical sleep, gaining the asleep condition (except normal noise doesn’t wake up the sleeping creatures). Creatures with the lowest CR are affected first. Among creatures of equal CR, those who are closest to the spell’s point of origin are affected first. Deep slumber doesn’t affect unconscious creatures, constructs, or undead creatures.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Detect Affliction": {
+        "title": "Detect Affliction",
+        "level_requirements": [
+            "Technomancer 0",
+            "Mystic 0"
+        ],
+        "school": "divination",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "one creature or object",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "none",
+        "spell_resistance": "yes (harmless)",
+        "description": "You determine whether a creature or object has been poisoned, is diseased, is cursed, or is suffering a similar affliction. If the target is poisoned or diseased, you automatically detect that fact and can determine the exact type of poison or disease with a successful DC 20 Intelligence or Wisdom check. If you are trained in Life Science or Medicine (depending on the nature of the poison or disease), you can attempt a DC 20 check of that skill if you fail your Wisdom or Intelligence check. If the target is cursed or suffering from a similar affliction, you must succeed at a DC 20 Intelligence or Wisdom check to determine that fact. You can then determine the exact nature of the curse with a successful DC 25 Mysticism check.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Detect Magic": {
+        "title": "Detect Magic",
+        "level_requirements": [
+            "Technomancer 0",
+            "Mystic 0"
+        ],
+        "school": "divination",
+        "casting_time": "1 standard action",
+        "range": "60 ft.",
+        "area": "cone-shaped emanation",
+        "targets": "",
+        "effect": "",
+        "duration": "concentration, up to 1 minute/level",
+        "saving_throw": "none",
+        "spell_resistance": "no",
+        "description": "You detect all magic spells, effects, items, and objects (including those on or affecting creatures you can see), as well as hybrid items, in the area. You can’t detect magical traps in this way, as they are created with additional magic that wards them from this common spell. Each round you concentrate on the same area, you can determine if one magic source you detect is from a spell, magic item, or other effect, and the caster level (or item level) of the effect. You can’t determine if there are magic sources in areas you can’t see, or if there was a magic source in an area at one time but that has since expired.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Detect Radiation": {
+        "title": "Detect Radiation",
+        "level_requirements": [
+            "Mystic 1",
+            "Technomancer 1"
+        ],
+        "school": "divination",
+        "casting_time": "1 standard action",
+        "range": "120 ft.",
+        "area": "120-ft. spherical emanation centered on you",
+        "targets": "",
+        "effect": "",
+        "duration": "10 minutes/level",
+        "saving_throw": "none",
+        "spell_resistance": "no",
+        "description": "You detect radiation in the surrounding area, and you can determine the specific intensity of the radiation of one area or object within the spell’s area each round without taking an action (see Radiation on page 403 for more details). The spell can penetrate barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or any force field blocks it.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Detect Tech": {
+        "title": "Detect Tech",
+        "level_requirements": [
+            "Technomancer 1"
+        ],
+        "school": "divination",
+        "casting_time": "1 standard action",
+        "range": "60 ft.",
+        "area": "cone-shaped burst",
+        "targets": "",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "none",
+        "spell_resistance": "no",
+        "description": "You detect all technological items (even hybrid items) with charges or that replenish charges in the area, including batteries, power cells, and generators (as well as such items that are on creatures you can see, even if the creatures have hidden those items on themselves). You can’t determine if there are technological items in areas you can’t see, nor can you detect technological traps in this way.\r\nThe information this spell provides allows you to differentiate between charged items and items that replenish charges, but it does not provide any further information nor does it tell you, for example, how many charges an item currently has or how many maximum charges it can hold. This spell can penetrate barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or any force field blocks it.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Detect Thoughts": {
+        "title": "Detect Thoughts",
+        "level_requirements": [
+            "Mystic 1"
+        ],
+        "school": "divination",
+        "casting_time": "1 standard action",
+        "range": "60 ft.",
+        "area": "cone-shaped emanation",
+        "targets": "",
+        "effect": "",
+        "duration": "concentration, up to 1 minute/level",
+        "saving_throw": "Will negates, see text",
+        "spell_resistance": "no",
+        "description": "You detect the surface thoughts of intelligent creatures around you. The amount of information revealed depends on how long you study a particular area or target.\r\n\r\n* **1st Round:** You detect the presence or absence of thoughts from conscious creatures that have Intelligence scores of at least 1 (or an Intelligence modifier of –5) or higher.\r\n* **2nd Round:** You detect the number of thinking minds and the Intelligence score (or modifier) of each. If the highest Intelligence score is 26 (or a modifier of +8) or higher and at least 10 points higher than your own Intelligence score (or 5 points higher than your own Intelligence modifier), you are stunned for 1 round and the spell ends. This spell doesn’t let you determine the location of the thinking minds if you can’t see the creatures whose thoughts you are detecting.\r\n* **3rd Round:** You can read the surface thoughts of any mind in the area. A target who succeeds at its Will save prevents you from reading its thoughts, and you must cast detect thoughts again to have another chance. Creatures of animal intelligence (an Intelligence score of 1 or 2 or an Intelligence modifier of –4 or lower) have simple, instinctual thoughts.\r\n\r\nEach round, you can turn to detect thoughts in a new area. The spell can penetrate barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or any force field blocks it.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Dimension Door": {
+        "title": "Dimension Door",
+        "level_requirements": [
+            "Technomancer 4"
+        ],
+        "school": "conjuration",
+        "casting_time": "1 standard action",
+        "range": "long (400 ft. + 40 ft./level)",
+        "area": "",
+        "targets": "you and touched objects or touched willing or unconscious creatures",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "none, Will negates (object)",
+        "spell_resistance": "no, yes (object)",
+        "description": "You instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired—whether by simply visualizing the area or by stating its direction. You can bring along objects as long as their weight doesn’t exceed your maximum load. You can also bring up to four additional willing or unconscious Medium or smaller creatures (carrying gear or objects up to their maximum load) or their equivalent. A Large creature counts as two Medium creatures, and a Huge creature counts as two Large creatures. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you. After using this spell, you can’t take any other actions until your next turn (and each creature traveling with you can’t take any other actions until its next turn).\r\n\r\nIf you arrive in a place that is already occupied by a solid body, you and each creature traveling with you each take 1d6 damage and are shunted to a random open space on a suitable surface within 100 feet of the intended location. If there is no free space within 100 feet, you and each creature traveling with you take 2d6 additional damage and are shunted to a free space within 1,000 feet. If there is no free space within 1,000 feet, you and each creature traveling with you take 4d6 additional damage and the spell simply fails.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Discern Lies": {
+        "title": "Discern Lies",
+        "level_requirements": [
+            "Mystic 4"
+        ],
+        "school": "divination",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "up to one creature/level, no two of which can be more than 30 ft. apart",
+        "effect": "",
+        "duration": "concentration, up to 1 round/level",
+        "saving_throw": "Will negates",
+        "spell_resistance": "no",
+        "description": "Each round, you concentrate on one target within range. You know if the target deliberately and knowingly speaks a lie by discerning disturbances in its aura caused by lying. The spell does not reveal the truth or uncover unintentional inaccuracies, and it doesn’t necessarily reveal evasions. Each round, you can concentrate on a different target.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Discharge": {
+        "title": "Discharge",
+        "level_requirements": [
+            "Technomancer 3"
+        ],
+        "school": "abjuration",
+        "casting_time": "1 standard action",
+        "range": "medium (100 ft. + 10 ft./level)",
+        "area": "",
+        "targets": "one creature or technological object",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "Fortitude negates (object)",
+        "spell_resistance": "no",
+        "description": "You can dissipate the charges from one technological object, temporarily depower one electrically powered technological object that does not use charges, or severely hinder a construct with the technological subtype. If the spell targets an object with charges, the object loses all of its remaining charges. If the object is powered by electrical means other than charges, its functions are suppressed for 1d4 rounds. If the spell targets a creature not of the technological subtype, it affects a random charged or electrically powered item in that creature’s possession. If the target is a construct with the technological subtype, it is staggered and cannot use any energy-based attacks for 1d4 rounds. A construct with the technological subtype that is affected by this spell can attempt a Fortitude saving throw at the end of each round to shrug off the effect.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Disguise Self": {
+        "title": "Disguise Self",
+        "level_requirements": [
+            "Mystic 1",
+            "Technomancer 1"
+        ],
+        "school": "illusion",
+        "casting_time": "1 standard action",
+        "range": "personal",
+        "area": "",
+        "targets": "",
+        "effect": "",
+        "duration": "10 minutes/level (D)",
+        "saving_throw": "",
+        "spell_resistance": "",
+        "description": "You make yourself—and any clothing, armor, weapons, and equipment on you—look different. You can seem up to 1 foot shorter or taller, thin, fat, or in between. You can’t change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could merely add or obscure a minor feature, or you could look like an entirely different person or gender.\r\n\r\nThe spell does not provide the abilities or mannerisms of the chosen form nor does it alter the perceived tactile (touch) or audible (sound) properties of you or your equipment.\r\n\r\nIf you use this spell to create a disguise, you gain a +10 circumstance bonus to the Disguise check (since it counts as altering your form). A creature that interacts with you directly can attempt a Will saving throw to recognize your appearance as an illusion.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Disintegrate": {
+        "title": "Disintegrate",
+        "level_requirements": [
+            "Technomancer 6"
+        ],
+        "school": "transmutation",
+        "casting_time": "1 standard action",
+        "range": "medium (100 ft. + 10 ft./level)",
+        "area": "",
+        "targets": "one creature or object, or up to a 10-ft. cube of nonliving matter",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "Fortitude partial (object)",
+        "spell_resistance": "yes",
+        "description": "Immense power shoots from your finger, with the potential to disintegrate a target where it stands.\r\n\r\nWhen you cast this spell, a thin, green ray springs from your pointing finger. You must make a ranged attack against your target’s EAC, but you can add your key ability score bonus to this attack instead of your Dexterity modifier if it is higher. If you hit, the target takes 14d20 damage. Any creature reduced to 0 Hit Points by this spell is entirely disintegrated, leaving behind only a trace of fine dust. A disintegrated creature’s equipment is unaffected. Only one target is affected per casting of this spell.\r\n\r\nWhen used against an object, the ray simply disintegrates as much as a 10-foot cube of nonliving matter. Thus, the spell disintegrates only part of any very large object or structure targeted. The ray affects even objects constructed entirely of force, but it does not affect other magical effects that are not an object, creature, or force effect.\r\n\r\nA creature or object that succeeds at a Fortitude saving throw is partially affected, taking only 4d20 damage. If this damage reduces the creature or object to 0 Hit Points, the target is entirely disintegrated.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Dismissal": {
+        "title": "Dismissal",
+        "level_requirements": [
+            "Technomancer 5",
+            "Technomancer 4",
+            "Mystic 4",
+            "Mystic 5"
+        ],
+        "school": "abjuration",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "see text",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "Will negates, see text",
+        "spell_resistance": "yes",
+        "description": "The spell instantly forces one or more extraplanar creatures off your current plane, whisking them away instantly—usually to the creature’s home plane, but there is a 20% chance of sending the target to a random plane other than its own. You can improve the spell’s chance of success by presenting one object or substance that the target fears, hates, or otherwise opposes; you gain a +1 circumstance bonus to your caster level check to overcome the target’s spell resistance (if any), and\r\nthe save DC of the spell increases by 2. At the GM’s discretion, certain rare items might work twice as well, providing a +2 circumstance bonus to the caster level check to overcome spell resistance and increasing the spell’s save DC by 4.\r\n\r\n* **4th:** When you cast dismissal as a 4th-level spell, it affects one extraplanar creature.\r\n* **5th:** When you cast dismissal as a 5th-level spell, it affects\r\na number of extraplanar creatures whose total CR can’t exceed your level + 2, no two of which can be more than 30 feet apart.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Dispel Magic": {
+        "title": "Dispel Magic",
+        "level_requirements": [
+            "Technomancer 3",
+            "Mystic 3"
+        ],
+        "school": "abjuration",
+        "casting_time": "1 standard action",
+        "range": "medium (100 ft. + 10 ft./level)",
+        "area": "",
+        "targets": "one creature, object, spell, or spellcaster",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "none",
+        "spell_resistance": "no",
+        "description": "You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster’s spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can’t be defeated by dispel magic. Dispel magic can dispel (but not counter) spell-like abilities just as it does spells. The effect of a spell with an instantaneous duration can’t be dispelled.\r\nYou choose to use dispel magic in one of two ways: as a targeted dispel or as a counter.\r\n\r\n**Targeted Dispel:** One creature, object, or spell is the target of the dispel magic spell. You can also use a targeted dispel to specifically end one spell affecting the target or one spell affecting an area (such as zone of truth). You must name the specific spell effect to be targeted in this way or otherwise uniquely identify it (such as “that burning wall” or “the spell that’s giving him those duplicates”). Attempt a dispel check (1d20 + your caster level) with a DC equal to 11 + the spell’s caster level. If you succeed, the spell ends. If you don’t specify a spell and there is more than one possible spell on the target, your targeted dispel attempts to dispel a spell at random.\r\n\r\nIf you target a force, an object, or a creature that is the effect of an ongoing spell (such as unseen servant), you attempt a dispel check to end the spell that conjured the object or creature.\r\n\r\nIf the object that you target is a magic item, you attempt a dispel check against the item level (DC = 11 + the item level). If you succeed, all the item’s magical properties are suppressed for 1d4 rounds, after which the item recovers its magical properties. A suppressed item becomes nonmagical for the duration of the effect. A magic item’s nonmagical physical properties are unchanged: a suppressed holy laser pistol is still a laser pistol. Artifacts and deities are unaffected by mortal magic such as this.\r\n\r\nYou can choose to automatically succeed at your dispel check against any spell you have cast.\r\n\r\n* **Counter:** You can use the energy of dispel magic to disrupt the casting of other spells. First, select an opponent and take the ready action (see page 249) to cast dispel magic when that target casts a spell. This is considered a purely defensive action. When that readied action is triggered, you cast dispel magic\r\nand must attempt a dispel check (1d20 + your caster level) to counter the other spellcaster’s spell. The DC is equal to 11 + the other spellcaster’s caster level. If the check is successful and the target is in range, the spell fails and has no result.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Dispel Magic, Greater": {
+        "title": "Dispel Magic, Greater",
+        "level_requirements": [
+            "Technomancer 5",
+            "Mystic 5"
+        ],
+        "school": "abjuration",
+        "casting_time": "1 standard action",
+        "range": "medium (100 ft. + 10 ft./level)",
+        "area": "",
+        "targets": "one creature, object, spell, or spellcaster; or a 20-ft.-radius burst",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "",
+        "spell_resistance": "",
+        "description": "This spell functions like dispel magic, except it can end more than one spell on a target and it can be used to target multiple creatures. You choose to use greater dispel magic in one of three ways: a targeted dispel, an area dispel, or a counter.\r\n\r\n**Targeted Dispel:** This functions as a targeted dispel magic, but you can dispel one spell for every 4 caster levels you have, attempting a separate dispel check for each spell. Additionally, greater dispel magic has a chance to dispel any curse that remove affliction can remove, even if dispel magic can’t dispel that effect. The DC of this check is equal to the curse’s DC.\r\n\r\n**Area Dispel:** When greater dispel magic is used in this way, the spell affects everything within a 20-foot-radius burst. Attempt one dispel check and apply that check to each creature or object in the area, as if it were targeted by dispel magic.\r\n\r\nIf you don’t specify spells and there is more than one possible spell on the target, your targeted dispel attempts to dispel spells at random. Magic items themselves are not affected by an area dispel but additional magical effects on them may be dispelled.\r\n\r\nFor each ongoing spell effect whose point of origin is within the area of the greater dispel magic spell, apply the result of the dispel check to dispel the spell. For each ongoing spell whose area overlaps that of the greater dispel magic spell, apply the result of the dispel check to end the effect, but only within the overlapping area.\r\n\r\nIf an object or a creature that is the effect of an ongoing spell is in the area, apply the result of the dispel check to end the spell that conjured that object or creature (returning it whence it came) in addition to attempting to dispel one spell targeting the creature or object.\r\n\r\nYou can choose to automatically succeed at your dispel check against any spell you have cast.\r\nCounter: This functions as countering with dispel magic, but you receive a +4 bonus to your dispel check to counter the other spellcaster’s spell.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Displacement": {
+        "title": "Displacement",
+        "level_requirements": [
+            "Technomancer 3"
+        ],
+        "school": "illusion",
+        "casting_time": "1 standard action",
+        "range": "touch",
+        "area": "",
+        "targets": "one creature",
+        "effect": "",
+        "duration": "1 round/level (D)",
+        "saving_throw": "Will negates (harmless)",
+        "spell_resistance": "yes (harmless)",
+        "description": "The target of this spell appears to be about 2 feet away from its true location. The creature benefits from a 50% miss chance as if it had total concealment. Unlike actual total concealment, displacement doesn’t prevent enemies from targeting the creature normally. True seeing reveals the target’s true location and negates the miss chance. If a creature with blindsense can also see the displaced creature, the visual and blindsense information combined are enough for the creature with blindsense to attack the displaced creature without a miss chance, unlike normal for blindsense.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Divination": {
+        "title": "Divination",
+        "level_requirements": [
+            "Mystic 4"
+        ],
+        "school": "divination",
+        "casting_time": "10 minutes",
+        "range": "personal",
+        "area": "",
+        "targets": "",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "",
+        "spell_resistance": "",
+        "description": "Similar to _augury_ but more powerful, a divination spell can provide you with a useful piece of advice in reply to a question concerning a specific goal, event, or activity that is to occur within 1 week. Casting this spell requires you to expend 1 Resolve Point. The advice granted by the spell can be as simple as a short phrase, or it might take the form of a cryptic rhyme or omen. If you don’t act on the information, the conditions may change so that the information is no longer useful. The chance for a correct divination is 75%. If the die roll fails, you know the spell failed, unless specific magic yielding false information is at work.\r\n\r\nAs with _augury_, multiple castings of divination about the same topic by the same caster use the same die result as the first divination spell and yield the same answer each time.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Dominate Person": {
+        "title": "Dominate Person",
+        "level_requirements": [
+            "Mystic 5"
+        ],
+        "school": "enchantment",
+        "casting_time": "1 round",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "one humanoid",
+        "effect": "",
+        "duration": "1 day/level; see text",
+        "saving_throw": "Will negates",
+        "spell_resistance": "yes",
+        "description": "You fire a bright purple ray at your target, making a ranged attack against your target’s EAC, but you can add your key ability score bonus to this attack instead of your Dexterity modifier if it is higher.\r\nIf you hit and your target fails its Will saving throw, you establish a telepathic link with the target’s mind and can control its actions. If you and the target have a common language, you can generally force the target to perform as you desire, within the limits of its abilities. If no common language exists, you\r\ncan communicate only basic commands, such as “Come here,” “Go there,” “Fight,” and “Stand still.” You know what the target is experiencing, but you don’t receive direct sensory input from it, nor can it communicate with you telepathically. Once you have given a dominated creature a command, it continues to attempt to carry out that command to the exclusion of all other activities except those necessary for day-to-day survival (such as sleeping, eating, and so forth). Changing your orders or giving a dominated creature a new command is a move action.\r\n\r\nBy concentrating fully on the spell (a standard action), you can receive full sensory input as interpreted by the mind of the target, though it still can’t communicate with you. You don’t actually see through the target’s eyes, but you still get a good idea of what’s going on.\r\n\r\nThe target resists this control, and any target forced to take actions against its nature can attempt a new saving throw with a +2 bonus. Obviously self-destructive orders are not carried out. Once control is established, the range at which it can be exercised is unlimited as long as you and the target are on the same plane. You don’t need to see the target to control it.\r\n\r\nIf you don’t spend at least 1 round concentrating on the spell each following day, the target can attempt a new saving throw to throw off the domination. You can be prevented from exercising control or using the telepathic link while the target is under the effects of some spells, but such effects don’t automatically dispel the domination.",
+        "brief_description": "",
+        "requires_resolve": false
+    },
+    "Energy Ray": {
+        "title": "Energy Ray",
+        "level_requirements": [
+            "Technomancer 0"
+        ],
+        "school": "conjuration",
+        "casting_time": "1 standard action",
+        "range": "close (25 ft. + 5 ft./2 levels)",
+        "area": "",
+        "targets": "one creature or object",
+        "effect": "",
+        "duration": "instantaneous",
+        "saving_throw": "none",
+        "spell_resistance": "yes",
+        "description": "When you cast this spell, choose acid, cold, electricity, or fire; the spell gains that descriptor. You fire a ray at the target, and you must make a ranged attack against its EAC. On a hit, the ray deals 1d3 damage of the chosen energy type.",
+        "brief_description": "",
+        "requires_resolve": false
+    }
+}
