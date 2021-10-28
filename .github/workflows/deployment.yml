@@ -15,9 +15,6 @@ jobs:
         run: npm install -g serverless
       - name: Change Directory into src
         run: cd src
-      - name: Serverless AWS authentication
         run: sls config credentials --provider aws --key ${{ secrets.AWS_KEY }} --secret ${{ secrets.AWS_SECRET }}
-      - name: Install NPM dependencies
         run: npm install
-      - name: Deploy Lambda functions
         run: sls deploy -s dev
