@@ -1,0 +1,32 @@
+service: starfinder-discord-bot
+
+frameworkVersion: "2"
+
+provider:
+  name: aws
+  runtime: python3.8
+  environment:
+    STAGE: ${sls:stage}
+  tags:
+    application: starfinder
+
+plugins:
+  - serverless-python-requirements
+  - serverless-iam-roles-per-function
+  - serverless-pseudo-parameters
+
+functions:
+  invoke:
+    handler: main.main
+    events:
+      - httpApi:
+          method: POST
+          path: /v1/invoke
+    layers:
+      - arn:aws:lambda:us-east-1:#{AWS::AccountId}:layer:salt:1
+    iamRoleStatements:
+      - Effect: "Allow"
+        Action:
+          - ssm:GetParameter
+        Resource:
+          - arn:aws:ssm:us-east-1:*:parameter/${sls:stage}/discord/starfinder/public/key
