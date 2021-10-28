@@ -1,6 +1,7 @@
 import json
 import requests
 from aws_lambda_powertools import Logger
+from classes.data_lookup import Datalookup
 
 logger = Logger(service='starfinder-lookup')
 
