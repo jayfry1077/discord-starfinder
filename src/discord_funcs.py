@@ -17,9 +17,10 @@ STAGE = os.environ.get('STAGE', 'dev')
 # AcknowledgeWithSource	5	ACK a command without sending a message, showing the user's input
 
 
-def discord_body(status_code, type, message):
+def discord_body(status_code=int, type=int, message=str):
     return {
         "statusCode": status_code,
+        "headers": {"content-type": 'application/json'},
         'body': json.dumps({"type": type,
                             "data": {
                                 "tts": False,
