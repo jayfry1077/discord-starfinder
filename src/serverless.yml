@@ -30,3 +30,31 @@ functions:
           - ssm:GetParameter
         Resource:
           - arn:aws:ssm:us-east-1:*:parameter/${sls:stage}/discord/starfinder/public/key
+  lookup:
+    handler: lookup.main
+
+resources:
+  Resources:
+    starfinderEventBus:
+      Type: AWS::Events::EventBus
+      Properties:
+        Name: discord-starfinder-${sls:stage}
+
+    starfinderDiscoverer:
+      Type: AWS::EventSchemas::Discoverer
+      Properties:
+        Description: Discovers starfinder eventbus events
+        SourceArn: !GetAtt starfinderEventBus.Arn
+
+    lookupEventRule:
+      Type: AWS::Events::Rule
+      Properties:
+        Description: Forwards starfinder lookup events
+        EventBusName: !Ref starfinderEventBus
+        EventPattern:
+          source:
+            - discord.lookup
+        State: ENABLED
+        Targets:
+          - Arn: !GetAtt LookupLambdaFunction.Arn
+            Id: lookup
