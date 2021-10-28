@@ -12,9 +12,6 @@ def main(event, context):
 
     print(event)
 
-    if not valid_signature(event):
-        return discord_body(200, 2, 'Error Validating Discord Signature')
-
     try:
         valid_signature(event)
     except Exception as e:
