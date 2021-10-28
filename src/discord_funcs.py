@@ -7,8 +7,6 @@ import json
 
 logger = Logger(service='discord-funcs')
 STAGE = os.environ.get('STAGE', 'dev')
-DISCORD_PUBLIC_KEY = parameters.get_parameter(
-    f'/{STAGE}/discord/starfinder/public/key', decrypt=True)
 
 # INTERACTION RESPONSE TYPES
 # NAME	VALUE	DESCRIPTION
@@ -30,6 +28,8 @@ def discord_body(status_code, type, message):
 
 
 def valid_signature(event):
+    DISCORD_PUBLIC_KEY = parameters.get_parameter(
+        f'/{STAGE}/discord/starfinder/public/key', decrypt=True)
     body = event['body']
     auth_sig = event['headers']['x-signature-ed25519']
     auth_ts = event['headers']['x-signature-timestamp']
