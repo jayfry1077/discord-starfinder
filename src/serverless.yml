@@ -63,3 +63,11 @@ resources:
         Targets:
           - Arn: !GetAtt LookupLambdaFunction.Arn
             Id: lookup
+
+    LookupEventLambdaPermission:
+      Type: AWS::Lambda::Permission
+      Properties:
+        Action: lambda:invokeFunction
+        FunctionName: !Ref LookupLambdaFunction
+        Principal: events.amazonaws.com
+        SourceArn: !GetAtt lookupEventRule.Arn
