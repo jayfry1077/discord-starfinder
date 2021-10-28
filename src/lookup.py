@@ -17,6 +17,7 @@ def update_message(application_id=str, token=str, message=str):
 
 
 def main(event, context):
+    print(event)
 
     body = event['detail']
 

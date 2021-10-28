@@ -30,6 +30,11 @@ functions:
           - ssm:GetParameter
         Resource:
           - arn:aws:ssm:us-east-1:*:parameter/${sls:stage}/discord/starfinder/public/key
+      - Effect: Allow
+        Action:
+          - events:PutEvents
+        Resource:
+          - !GetAtt starfinderEventBus.Arn
   lookup:
     handler: lookup.main
 
