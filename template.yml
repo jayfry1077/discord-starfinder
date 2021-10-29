@@ -1,0 +1,81 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+
+Parameters:
+  Stage:
+    Type: String
+    Default: dev
+
+Globals:
+  Function:
+    Timeout: 60
+
+Resources:
+  invokeApi:
+    Type: AWS::Serverless::HttpApi
+
+  invoke:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/
+      Handler: main.main
+      Runtime: python3.9
+      Events:
+        HttpApi:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref invokeApi
+            Path: /v1/invoke
+            Method: POST
+      Policies:
+        - Statement:
+            - Sid: SSMGetPolicy
+              Effect: Allow
+              Action:
+                - ssm:GetParameter
+              Resource: !Sub arn:aws:ssm:us-east-1:*:parameter/${Stage}/discord/starfinder/public/key
+            - Sid: EBPutEvents
+              Effect: Allow
+              Action:
+                - events:PutEvents
+              Resource:
+                - !GetAtt starfinderEventBus.Arn
+
+  lookup:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/
+      Handler: lookup.main
+      Runtime: python3.9
+
+  starfinderEventBus:
+    Type: AWS::Events::EventBus
+    Properties:
+      Name: !Sub discord-starfinder-${Stage}
+
+  starfinderDiscoverer:
+    Type: AWS::EventSchemas::Discoverer
+    Properties:
+      Description: Discovers starfinder eventbus events
+      SourceArn: !GetAtt starfinderEventBus.Arn
+
+  lookupEventRule:
+    Type: AWS::Events::Rule
+    Properties:
+      Description: Forwards starfinder lookup events
+      EventBusName: !Ref starfinderEventBus
+      EventPattern:
+        source:
+          - discord.lookup
+      State: ENABLED
+      Targets:
+        - Arn: !GetAtt lookup.Arn
+          Id: lookup
+
+  LookupEventLambdaPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName: !Ref lookup
+      Principal: events.amazonaws.com
+      SourceArn: !GetAtt lookupEventRule.Arn

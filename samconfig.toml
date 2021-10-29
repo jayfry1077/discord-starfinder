@@ -1,0 +1,10 @@
+ version=0.1
+
+ [default.deploy.parameters]
+ s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-3vs2cvmkhg56"
+ s3_prefix = "starfinder-discord-bot-dev"
+ stack_name = "starfinder-discord-bot-dev"
+ region = "us-east-1"
+ capabilities = "CAPABILITY_IAM"
+ parameter_overrides = "Stage=\"dev\""
+ image_repositories = []

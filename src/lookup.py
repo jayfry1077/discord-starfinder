@@ -1,5 +1,6 @@
 import json
 import requests
+import traceback
 from aws_lambda_powertools import Logger
 from classes.data_lookup import Datalookup
 
@@ -22,5 +23,11 @@ def main(event, context):
 
     body = event['detail']
 
-    update_message(body['application_id'], body['token'],
-                   f'Test Successful.')
+    lookup = Datalookup(body)
+
+    try:
+        update_message(body['application_id'], body['token'], lookup.lookup())
+    except:
+        logger.error(traceback.extract_stack())
+        update_message(body['application_id'], body['token'],
+                       'Failed to lookup information')
