@@ -31,9 +31,21 @@ class Datalookup():
         attribute = op_by_op_name['attributes']['value']
 
         if attribute == 'ALL':
-            return json.dumps(data[title])
+            return self.__format_message(data[title])
         else:
-            return json.dumps(data[title][attribute])
+            return f'```{data[title][attribute]}```'
+
+    def __format_message(self, data=dict):
+
+        start_message = '```'
+
+        for key, value in data.items():
+
+            start_message += f'{key}: {value}' + '\n'
+
+        end_message = f'{start_message}```'
+
+        return end_message
 
     def spell_seralizer(self):
         spell_data = self.__get_data('spells_by_spells_title')
@@ -65,25 +77,3 @@ class Datalookup():
         searlizer = self.get_seralizer()
 
         return searlizer()
-
-        # test = {'detail': {
-        #         'application_id': '',
-        #         'channel_id': '',
-        #         'data': {
-        #             'id': '',
-        #             'name': 'lookup',
-        #                     'options': [{
-        #                         'name': 'spell',
-        #                                 'options': [{
-        #                                     'name': 'title',
-        #                                     'type': 3,
-        #                                     'value': 'hmm'
-        #                                 }, {
-        #                                     'name': 'attributes',
-        #                                     'type': 3,
-        #                                     'value': 'level_requirements'
-        #                                 }],
-        #                         'type': 1
-        #                     }],
-        #             'type': 1
-        #         }}

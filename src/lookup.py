@@ -27,7 +27,8 @@ def main(event, context):
 
     try:
         update_message(body['application_id'], body['token'], lookup.lookup())
-    except:
-        logger.error(traceback.extract_stack())
+    except Exception as e:
+        logger.error(e)
+        logger.error(traceback.print_exception())
         update_message(body['application_id'], body['token'],
                        'Failed to lookup information')
