@@ -27,7 +27,7 @@ class Datalookup():
         op_by_op_name = {
             option['name']: option for option in self.options[0]['options']}
 
-        title = op_by_op_name['title']['value']
+        title = op_by_op_name['title']['value'].lower()
         attribute = op_by_op_name['attributes']['value']
 
         if attribute == 'ALL':
