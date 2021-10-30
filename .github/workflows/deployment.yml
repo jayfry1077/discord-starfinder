@@ -20,4 +20,4 @@ jobs:
       - name: SAM Build
         run: sam build --use-container
       - name: SAM Deploy
-        run: sam deploy --stack-name starfinder-discord-bot-dev --use-container
+        run: sam deploy --stack-name starfinder-discord-bot-dev
