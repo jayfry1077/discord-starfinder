@@ -5,6 +5,7 @@ on:
       - dev
 jobs:
   deploy-dev:
+    runs-on: ubuntu-latest
     container: public.ecr.aws/sam/build-python3.9:latest
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY }}
