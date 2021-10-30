@@ -115,3 +115,4 @@ dmypy.json
 .pyre/
 src/node_modules/*
 .aws-sam
+act.exe
