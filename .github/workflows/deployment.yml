@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: "3.9"
       - uses: aws-actions/setup-sam@v1
-      - name: SAM Build
-        run: sam build --use-container
-      - name: SAM Deploy
-        run: sam deploy --stack-name starfinder-discord-bot-dev
+      - name: SAM Build & Deploy
+        run: |
+          sam build --use-container
+          sam deploy --stack-name starfinder-discord-bot-dev
