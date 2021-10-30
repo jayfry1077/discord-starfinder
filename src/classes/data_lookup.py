@@ -4,20 +4,18 @@ import json
 class Datalookup():
     def __init__(self, event) -> None:
         self.options = event['data']['options']
+        self.command = self.options[0]['name']
 
     def get_seralizer(self):
-
-        command = self.options[0]['name']
-
-        if command == 'spell':
+        if self.command == 'spell':
             return self.spell_seralizer
-        elif command == 'ability':
+        elif self.command == 'ability':
             return self.ability_seralizer
-        elif command == 'weapon':
+        elif self.command == 'weapon':
             return self.weapon_seralizer
-        elif command == 'armor':
+        elif self.command == 'armor':
             return self.armor_seralizer
-        elif command == 'creature':
+        elif self.command == 'creature':
             return self.creature_seralizer
 
     def __get_data(self, file_name):
@@ -33,7 +31,10 @@ class Datalookup():
         if attribute == 'ALL':
             return self.__format_message(data[title])
         else:
-            return f'```{data[title][attribute]}```'
+            try:
+                return f'```{data[title][attribute]}```'
+            except:
+                return f'```{self.command} not found.```'
 
     def __format_message(self, data=dict):
 
