@@ -5,7 +5,7 @@ import requests
 def data_by_title(data_list=[dict], filename=str):
     with open(f'{filename}.json', 'w') as f:
         f.write(json.dumps(
-            {data['title']: data for data in data_list}))
+            {str(data['title']).lower(): data for data in data_list}))
 
 
 def spell_details(spell_title=str, detail=None) -> dict:
@@ -62,10 +62,10 @@ api_urls = {
 # for key, value in api_urls.items():
 #     data_by_title(paginate_data(value), f'{key}_by_{key}_title')
 
-for key, value in api_urls.items():
-    data = json.load(open(f'{key}_by_{key}_title.json', encoding='utf-8'))
-    for data_key, data_value in data.items():
-        print(f'********{key}********')
-        print(make_options(data_value))
-        print(f'****************')
-        break
+# for key, value in api_urls.items():
+#     data = json.load(open(f'{key}_by_{key}_title.json', encoding='utf-8'))
+#     for data_key, data_value in data.items():
+#         print(f'********{key}********')
+#         print(make_options(data_value))
+#         print(f'****************')
+#         break

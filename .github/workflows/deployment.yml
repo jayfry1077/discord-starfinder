@@ -19,5 +19,6 @@ jobs:
       - uses: aws-actions/setup-sam@v1
       - name: SAM Build & Deploy
         run: |
-          sam build
+          pip3 install -r ./src/requirements.txt
+          sam build --use-container
           sam deploy --stack-name starfinder-discord-bot-dev
