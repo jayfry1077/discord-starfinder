@@ -7,6 +7,7 @@ jobs:
   deploy-dev:
     runs-on: ubuntu-latest
     container: public.ecr.aws/sam/build-python3.9:latest
+    working-directory: discord-starfinder
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
