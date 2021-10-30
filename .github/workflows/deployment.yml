@@ -5,12 +5,13 @@ on:
       - dev
 jobs:
   deploy-dev:
-    runs-on: public.ecr.aws/sam/build-python3.9:latest
+    runs-on: ubuntu-latest
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
       AWS_DEFAULT_REGION: us-east-1
       AWS_DEFAULT_OUTPUT: json
+    uses: public.ecr.aws/sam/build-python3.9:latest
     steps:
       - name: SAM Build
         run: sam build
