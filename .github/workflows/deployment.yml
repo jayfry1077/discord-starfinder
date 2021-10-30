@@ -13,9 +13,7 @@ jobs:
       AWS_DEFAULT_REGION: us-east-1
       AWS_DEFAULT_OUTPUT: json
     steps:
-      - name: hmm
-        run: ls
       - name: SAM Build
-        run: sam build
+        run: sam build --use-container
       - name: SAM Deploy
-        run: sam deploy --stack-name starfinder-discord-bot-dev
+        run: sam deploy --stack-name starfinder-discord-bot-dev --use-container
