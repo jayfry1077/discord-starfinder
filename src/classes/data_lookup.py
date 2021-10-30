@@ -28,13 +28,15 @@ class Datalookup():
         title = op_by_op_name['title']['value'].lower()
         attribute = op_by_op_name['attributes']['value']
 
+        try:
+            _data = data[title]
+        except:
+            return f'```{self.command} not found.```'
+
         if attribute == 'ALL':
-            return self.__format_message(data[title])
+            return self.__format_message(_data)
         else:
-            try:
-                return f'```{data[title][attribute]}```'
-            except:
-                return f'```{self.command} not found.```'
+            return f'```{_data[attribute]}```'
 
     def __format_message(self, data=dict):
 
