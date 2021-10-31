@@ -21,7 +21,7 @@ I also provided the "register_commands.py" to show how you register these comman
 
 ## Workflow
 
-![workflow](workflow.png)
+![workflow](images/workflow.png)
 
 # Examples
 
@@ -29,11 +29,11 @@ I also provided the "register_commands.py" to show how you register these comman
 
 If you notice there is a bit of a delay with the frist call. That is because this architecure is serverless, so the very first call will warm up the lambdas (invoke, lookup). The next call is a lot quicker.
 
-![spell_lookup](Starfinder_Bot.gif)
+![spell_lookup](images/Starfinder_Bot.gif)
 
 ## Armor Lookup
 
-![armor_lookup](Starfinder_armor.gif)
+![armor_lookup](images/Starfinder_armor.gif)
 
 # Credits
 
