@@ -76,6 +76,7 @@ class Datalookup():
         return creature_data
 
     def lookup(self):
+        #
 
         searlizer = self.get_seralizer()
 
