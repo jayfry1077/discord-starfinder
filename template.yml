@@ -33,7 +33,7 @@ Resources:
               Effect: Allow
               Action:
                 - ssm:GetParameter
-              Resource: !Sub arn:aws:ssm:us-east-1:*:parameter/${Stage}/discord/starfinder/public/key
+              Resource: !Sub arn:aws:ssm:us-east-1:${AWS::AccountId}:parameter/${Stage}/discord/starfinder/public/key
             - Sid: EBPutEvents
               Effect: Allow
               Action:
