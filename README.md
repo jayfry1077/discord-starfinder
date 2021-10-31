@@ -2,7 +2,7 @@
 
 This is to show how we can build a serverless discord slash command bot that returns data about starfinder. Since everything is done via serverless, you only pay when its used.
 
-The basic architecture is:
+# Architecure
 
 1. Discord API -> AWS HTTP API Gateway
 1. AWS HTTP API Gateway -> Invoke lamba
@@ -18,6 +18,10 @@ The basic architecture is:
 1. Lookup lambda will return information to discord based on the parameters provided.
 
 I also provided the "register_commands.py" to show how you register these commands with your own discord bot.
+
+## Workflow
+
+![workflow](workflow.png)
 
 # Examples
 
